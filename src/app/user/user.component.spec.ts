@@ -56,7 +56,7 @@ describe('UserComponent', () => {
   });
 
   it(
-    "shouldn't fetch data successfully if not called asynchronously",
+    'should fetch data successfully if not called asynchronously',
     waitForAsync(() => {
       let fixture = TestBed.createComponent(UserComponent);
       let app = fixture.debugElement.componentInstance;
